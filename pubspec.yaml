@@ -1,6 +1,6 @@
 name: animated_sound_widget
 description: "A Flutter widget that animates in response to sound input with dynamic visual effects."
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/HMZKA/animated_sound_widget
 issue_tracker: https://github.com/HMZKA/animated_sound_widget/issues
 environment:
