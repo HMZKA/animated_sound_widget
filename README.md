@@ -1,6 +1,9 @@
 # AnimatedSoundWidget
 
 A Flutter widget that animates in response to sound input, creating a dynamic visual effect with rotating color blobs and scaling transformations. It reacts to the intensity of the sound and visualizes it using smooth animations.
+<p align="left">
+  <img src="https://github.com/HMZKA/inset_field_shadow/blob/main/images/enabled.png?raw=true" alt="Enabled State" width="200"/>
+</p>
 
 ## Features
 - Animated blobs that respond to sound intensity.
@@ -104,23 +107,6 @@ You can customize the appearance of the widget by modifying:
 
 ## SoundController
 The `SoundController` should be implemented in a way that it provides values between `0` and `1`, representing the intensity of the detected sound.
-
-Example:
-```dart
-import 'package:flutter/material.dart';
-
-class SoundController extends ChangeNotifier {
-  double _value = 0.0;
-
-  double get value => _value;
-
-  set value(double newValue) {
-    _value = newValue.clamp(0.0, 1.0);
-    notifyListeners();
-  }
-}
-```
-
 You can update `soundController.value` based on microphone input or other sound intensity sources.
 
 ## License
