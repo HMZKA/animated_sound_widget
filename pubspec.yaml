@@ -1,7 +1,7 @@
 name: animated_sound_widget
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+repository: https://github.com/HMZKA/animated_sound_widget
 
 environment:
   sdk: ^3.6.0
