@@ -2,7 +2,7 @@
 
 A Flutter widget that animates in response to sound input, creating a dynamic visual effect with rotating color blobs and scaling transformations. It reacts to the intensity of the sound and visualizes it using smooth animations.
 <p align="left">
-  <img src="https://github.com/HMZKA/inset_field_shadow/blob/main/images/enabled.png?raw=true" alt="Enabled State" width="200"/>
+  <img src="https://github.com/HMZKA/animated_sound_widget/blob/main/images/screenshot.gif" alt="Enabled State" width="200"/>
 </p>
 
 ## Features
